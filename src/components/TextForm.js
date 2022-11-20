@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 
-
 export default function TextForm(props) {
     const handleUpClick = ()=>{
         let newText = text.toUpperCase();
@@ -60,6 +59,7 @@ export default function TextForm(props) {
             <h2>Preview</h2>
             <p>{text.length>0?text:"Nothing to preview!"}</p>
         </div>
+      
         </>
     )
 }
